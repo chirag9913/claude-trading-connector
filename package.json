@@ -1,0 +1,12 @@
+{
+  "name": "claude-trading-connector",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MCP server + dashboard for Claude to research/backtest/trade Indian shares & INR currency derivatives (paper/demo by default).",
+  "scripts": {
+    "setup": "npm --prefix server install && npm --prefix server run build && npm --prefix dashboard install",
+    "server": "npm --prefix server run start",
+    "dashboard": "npm --prefix dashboard run dev",
+    "reset": "node server/dist/index.js"
+  }
+}

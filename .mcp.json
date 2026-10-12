@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "claude-trading": {
+      "command": "node",
+      "args": ["C:\\Users\\nxsem\\trading-connector\\server\\dist\\index.js"],
+      "env": {
+        "BROKER": "paper",
+        "PAPER_BALANCE": "100000"
+      }
+    }
+  }
+}
